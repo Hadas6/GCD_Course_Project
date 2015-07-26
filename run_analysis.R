@@ -61,7 +61,7 @@ narrowdown$activityName <- cut(narrowdown$activity, 6, labels = activities[,2])
 ## STEP 4: Appropriately labels the data set with descriptive variable names
 #############################################################################
 
-# already done in step 1 above
+# already done in step 1 above.
 
 #############################################################################
 ## STEP 5: creates a tidy data set with the average of each variable 
