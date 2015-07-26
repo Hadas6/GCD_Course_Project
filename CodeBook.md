@@ -17,7 +17,7 @@ Each record in the dataset has:
 - An activity label. 
 - An identifier of the subject who carried out the experiment.
 
-The process of cleaning the data are creating the tidy data set:
+The process of cleaning the data and creating the tidy data set:
 ----------------------------------------------------------------
 
 **STEP 1: Merges the training and the test sets to create one data set.
