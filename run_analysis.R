@@ -47,7 +47,6 @@ stdindex <- grep("std", c(names(dataset)), ignore.case=TRUE)
 # keep the subject, activity, and mean / std columns
 keepcol <- sort(unique(c(1, 2, meanindex, stdindex)))
 narrowdown <- dataset[, keepcol]
-narrowdown$ActivityName = ifelse(narrowdown$activity == "1", "WALKING","" )
 
 #############################################################################
 ## STEP 3: Uses descriptive activity names in the dataset
